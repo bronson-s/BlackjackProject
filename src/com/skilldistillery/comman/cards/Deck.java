@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-
-
 public class Deck {
 
 	private List<Card> deck;
@@ -33,6 +31,10 @@ public class Deck {
 	public Card dealCard() {
 		return deck.remove(0);
 	}
+
+//	public void dealCard(Hand hand) {
+//		hand.addCard(deck.remove(0));
+//	}
 
 	public void shuffle() {
 		Collections.shuffle(deck);

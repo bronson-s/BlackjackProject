@@ -20,6 +20,11 @@ For this project I gained confidence in the thought process behind OOP.
 Having to think through the different potential Objects (nouns) and how they
 interact with each other was helpful in understanding Object oriented design.
 
+## Notes
+The console outputs are designed to be minimal for game functionality for the
+time being. I plan on adjusting outputs to looks nicer after adding some extra
+features to the game.
+
 #### How to Run
 To play blackjack user must run as java program within a JRE. Upon starting the
 users and the players hands are populated with 2 cards each. Only the dealers

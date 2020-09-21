@@ -37,6 +37,7 @@ public class BlackjackApp {
 			
 				if (choice == 1) {
 					player.playerHand.addCard(dealer.dealCard());
+					
 					System.out.println(player.playerHand.toString());
 					if (player.playerHand.isBlackjack()) {
 						System.out.println("Player wins!");
@@ -115,7 +116,7 @@ public class BlackjackApp {
 			playAgain();
 		}
 		else if(player.playerHand.getHandValue() > dealer.dealerHand.getHandValue()) {
-			System.out.println("Player wins");
+			System.out.println("Player wins!");
 			playAgain();
 		}
 	}
